@@ -41,7 +41,7 @@ if($(window).width() > 800) {
 var swiper = new Swiper('.news-slider', {
     effect: 'coverflow',
     grabCursor: true,
-    loop: true,
+    loop: false,
     centeredSlides: true,
     keyboard: true,
     spaceBetween: 0,
